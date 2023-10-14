@@ -24,7 +24,7 @@ const App: React.FC = () => {
 
 
   return (
-    <div>
+    <div className='w-screen overflow-x-hidden'>
       <RouterProvider router={router} />
     </div>
   )
